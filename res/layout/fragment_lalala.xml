@@ -1,0 +1,38 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ua.kippz.lalala.LalalaActivity" >
+
+    <ImageView
+        android:id="@+id/prapor_imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/prapor"
+        android:scaleType="centerInside"
+        android:src="@drawable/prapor" />
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_weight="0"
+        android:gravity="bottom|center" >
+
+        <ImageButton
+            android:id="@+id/imageButton_play"
+            android:contentDescription="@string/play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_media_play" />
+
+        <ImageButton
+            android:id="@+id/imageButton_pause"
+            android:contentDescription="@string/pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_media_pause" />
+
+    </TableRow>
+
+</TableLayout>
